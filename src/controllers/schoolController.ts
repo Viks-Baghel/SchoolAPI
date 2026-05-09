@@ -25,7 +25,7 @@ export async function addSchool(req: Request, res: Response): Promise<void> {
 
 export async function listSchools(req: Request, res: Response): Promise<void> {
   const { latitude: userLat, longitude: userLon } = (res as any).locals.userCoords as UserCoords;
-
+    
   try {
     const [schools]: any = await pool.execute('SELECT * FROM schools');
 
