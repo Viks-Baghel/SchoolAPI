@@ -1,3 +1,6 @@
+# Deployment Link
+https://schoolapi-rudg.onrender.com
+
 # Educare School API
 
 Educare is a small Express and TypeScript API for storing schools and listing them by distance from a user's location. It uses MySQL through `mysql2/promise`, validates incoming coordinates, and calculates distance with the Haversine formula.
